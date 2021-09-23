@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Aggregates\Customer\Interfaces\Services\**" />
+    <EmbeddedResource Remove="Aggregates\Customer\Interfaces\Services\**" />
+    <None Remove="Aggregates\Customer\Interfaces\Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\Vault\Interfaces\Repositories\" />
+  </ItemGroup>
+
+</Project>

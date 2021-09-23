@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "86142ac6-6325-4899-adf1-4a706e8d779a",
+		"name": "UnitTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bank",
+			"item": [
+				{
+					"name": "New Account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"customer\": {\r\n    \"name\": \"Felipe\",\r\n    \"document\": {\r\n      \"documentType\": 1,\r\n      \"number\": \"23132111\"\r\n    }\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:4001/api/v1/bank/account",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"api",
+								"v1",
+								"bank",
+								"account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deposit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:4001/api/v1/bank/deposit/614bac6ec124e33877deb031/value/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"api",
+								"v1",
+								"bank",
+								"deposit",
+								"614bac6ec124e33877deb031",
+								"value",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "WithDraw",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:4001/api/v1/bank/withdraw/614bac6ec124e33877deb031/value/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"api",
+								"v1",
+								"bank",
+								"withdraw",
+								"614bac6ec124e33877deb031",
+								"value",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Function",
+			"item": [
+				{
+					"name": "CPF",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"documentNumber\": \"1111\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7071/api/submit?code=5SHVXi/oxtVX2p4/IYReeupsko4wzrHpi1CVDi37TXu9WUSFSfgdww==&=",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7071",
+							"path": [
+								"api",
+								"submit"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "5SHVXi/oxtVX2p4/IYReeupsko4wzrHpi1CVDi37TXu9WUSFSfgdww=="
+								},
+								{
+									"key": "",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

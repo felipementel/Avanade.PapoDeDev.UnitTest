@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.API", "Avanade.PapoDeDev.UnitTest.API\Avanade.PapoDeDev.UnitTest.API.csproj", "{53F72BB9-D276-4B90-8E41-4CB795CEAB96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.Domain", "Avanade.PapoDeDev.UnitTest.Domain\Avanade.PapoDeDev.UnitTest.Domain.csproj", "{912601B2-F86A-42E8-901E-5F67FBF30B0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.Infra.CrossCutting", "Avanade.PapoDeDev.UnitTest.Infra.CrossCutting\Avanade.PapoDeDev.UnitTest.Infra.CrossCutting.csproj", "{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.Infra.Data", "Avanade.PapoDeDev.UnitTest.Infra.Data\Avanade.PapoDeDev.UnitTest.Infra.Data.csproj", "{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-AppService", "0-AppService", "{0564E44C-3CCE-4D50-8F0C-8A60C1F537A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{E78A7A03-FDA8-41EF-B794-D924516D7FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infra", "2-Infra", "{FEE6B34A-B0D7-471F-9EEF-F9C5F11CD700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0-CrossCutting", "2.0-CrossCutting", "{4A01841D-F028-4F46-8AB1-DE48AE90D88B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1-Data", "2.1-Data", "{92553236-95FA-4E7B-B8C6-32995AFC2139}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Tests", "3-Tests", "{ED10EBE5-B40F-4A0C-A958-84552DA1C1CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.Domain.Test", "Avanade.PapoDeDev.UnitTest.Domain.Test\Avanade.PapoDeDev.UnitTest.Domain.Test.csproj", "{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Avanade.PapoDeDev.UnitTest.Infra.HttpService", "Avanade.PapoDeDev.UnitTest.Infra.HttpService\Avanade.PapoDeDev.UnitTest.Infra.HttpService.csproj", "{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2-HttpService", "2.2-HttpService", "{B38AC3BA-66DC-46B8-8BE3-9C69EA9AE983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F72BB9-D276-4B90-8E41-4CB795CEAB96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F72BB9-D276-4B90-8E41-4CB795CEAB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F72BB9-D276-4B90-8E41-4CB795CEAB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F72BB9-D276-4B90-8E41-4CB795CEAB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912601B2-F86A-42E8-901E-5F67FBF30B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912601B2-F86A-42E8-901E-5F67FBF30B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912601B2-F86A-42E8-901E-5F67FBF30B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912601B2-F86A-42E8-901E-5F67FBF30B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53F72BB9-D276-4B90-8E41-4CB795CEAB96} = {0564E44C-3CCE-4D50-8F0C-8A60C1F537A0}
+		{912601B2-F86A-42E8-901E-5F67FBF30B0A} = {E78A7A03-FDA8-41EF-B794-D924516D7FA7}
+		{152AF439-D278-4B2A-9BEA-7FDE6A5BD97F} = {4A01841D-F028-4F46-8AB1-DE48AE90D88B}
+		{BF8A1C30-D7F8-4667-B43D-85A01B8C1CDF} = {92553236-95FA-4E7B-B8C6-32995AFC2139}
+		{4A01841D-F028-4F46-8AB1-DE48AE90D88B} = {FEE6B34A-B0D7-471F-9EEF-F9C5F11CD700}
+		{92553236-95FA-4E7B-B8C6-32995AFC2139} = {FEE6B34A-B0D7-471F-9EEF-F9C5F11CD700}
+		{7A61FC6E-5C8B-4EE2-A61A-E4BB3CACF8F5} = {ED10EBE5-B40F-4A0C-A958-84552DA1C1CF}
+		{BA3DC10F-F875-4B7B-92A3-B1BEEDA8D875} = {B38AC3BA-66DC-46B8-8BE3-9C69EA9AE983}
+		{B38AC3BA-66DC-46B8-8BE3-9C69EA9AE983} = {FEE6B34A-B0D7-471F-9EEF-F9C5F11CD700}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE6B68E1-913D-4AA3-BB4C-09F7E80A249B}
+	EndGlobalSection
+EndGlobal
